@@ -88,6 +88,11 @@ export default function Login() {
           <span className="text-red-600">Register</span>
         </Link>
       </div>
+      <div>
+        <Link to="/forgot-password" className="text-sm text-blue-500 hover:underline">
+          <span className="text-red-600">Forgot Password?</span>
+        </Link>
+      </div>
 
       <div className="bg-slate-100 text-slate-600 py-2 px-4 m-4  flex flex-col gap-2">
         <span className="text-orange-400">To Login/register Successfully:</span>
